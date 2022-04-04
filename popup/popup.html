@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>chrome-extension-template</title>
+    </head>
+    <body>
+    </body>
+    <body>
+
+        <h2>Manga Tool</h2>
+        
+        <div>
+          <label for="fname">Element Key:</label>
+          <input type="text" id="el_key" name="el_key" value=""><br>
+          <label for="lname">Auto Next Chap:</label>
+          <input type="checkbox" id="auto_next" name="auto_next" value=""><br>
+          <label for="lname">Auto Scroll:</label>
+          <input type="checkbox" id="auto_scroll" name="auto_scroll" value=""><br>
+          <label for="fname">Scroll Speed:</label>
+          <input type="text" id="speed" name="speed" style="width: 20px;"><br>
+          <input type="button" value="Save" id="save">
+        </div> 
+        <hr/>
+        <p>Element Key can be the class or id of the "next chap button", which cause The Auto Next Chap occur when it appear in the windows</p>
+        <p>Press Enter to start/stop Auto Scroll</p>
+        <p>Press " for increasing Scroll Speed/ ? for reducing</p>
+        <p>Press Shift to Enable/Disable Auto Next Chap</p>
+        <p>Press | to perform pressing "next chap button"</p>
+        <script src="./popup.js"></script>
+        </body>
+        
+</html>
